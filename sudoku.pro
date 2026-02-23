@@ -19,10 +19,20 @@ CODE_DIR = "sudoku/"
 
 SOURCES += \
   $$CODE_DIR/main.cpp \
-  $$CODE_DIR/mainwindow.cpp
+  $$CODE_DIR/mainwindow.cpp \
+  sudoku/board.cpp \
+  sudoku/cell.cpp \
+  sudoku/control.cpp \
+  sudoku/generate.cpp \
+  sudoku/menu.cpp
 
 HEADERS += \
-  $$CODE_DIR/mainwindow.h
+  $$CODE_DIR/mainwindow.h \
+  sudoku/board.h \
+  sudoku/cell.h \
+  sudoku/control.h \
+  sudoku/generate.h \
+  sudoku/menu.h
 
 FORMS += \
   $$CODE_DIR/mainwindow.ui
